@@ -1,0 +1,41 @@
+* {
+	text-align: center;
+}
+
+#container {
+
+	font-size: 0px;
+	clear: both;
+	width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    padding: 0px 0px 0px 0px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.floating-box {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: darkblue;
+    border: 0px solid black;
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px; 
+    font-size: 12px;
+    opacity: 0.01;
+}
+
+#my-button {
+	
+	font-size: 12px;
+	clear: both;
+	width: 100px;
+    height: 40px;
+    border: 3px solid black;
+    vertical-align: middle;
+    background-color: orange;    
+    margin: auto;
+}
