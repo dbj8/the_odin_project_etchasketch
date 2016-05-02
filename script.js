@@ -8,8 +8,17 @@ $(document).ready(function(){
 	
 	//hover in and off logic,
 	$('.floating-box').on('mouseenter', function(){
-		//trying a different approach, as I think the button is screwing this up
-		$(this).fadeTo(100,0.9);
+		// old approach, one time fill
+		// $(this).fadeTo(100,0.9);
+		console.log(currentOpacity);
+		var opacityInc = 0.1;
+		var currentOpacity = parseFloat($(this).css("opacity"));
+		console.log(currentOpacity);
+		console.log(opacityInc);
+		console.log(opacityInc+currentOpacity);
+		$(this).css('opacity', currentOpacity+opacityInc);
+		
+
 	});
 	
 	//the gradual fade is turned off via commenting out, not how actual etch a sketch works
